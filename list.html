@@ -1,0 +1,20 @@
+<html>
+   <body>
+      <table border = 1>
+         <thead>
+            <td>Text</td>
+            <td>IS_FITARA</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row.input_data}}</td>
+               <td>{{row.result}}</td>
+	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/">Return to Home page</a>
+   </body>
+</html>
