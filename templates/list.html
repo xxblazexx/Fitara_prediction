@@ -1,20 +1,20 @@
 <html>
-   <body>
+   <body style="background-image:url('../static/images/bk6.jpg')">
       <table border = 1>
          <thead>
-            <td>Text</td>
-            <td>IS_FITARA</td>
+            <td><font color="white">Text</font></td>
+            <td><font color="white">IS_FITARA</font></td>
          </thead>
          
          {% for row in rows %}
             <tr>
-               <td>{{row.input_data}}</td>
-               <td>{{row.result}}</td>
+               <td><font color="white">{{row.input_data}}</font></td>
+               <td><font color="white">{{row.result}}</font></td>
 	
             </tr>
          {% endfor %}
       </table>
       
-      <a href = "/">Return to Home page</a>
+      <a href = "/"><font color="white">Return to Home page</font></a>
    </body>
 </html>
