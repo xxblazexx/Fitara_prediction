@@ -1,0 +1,20 @@
+<html>
+   <body style="background-image:url('../static/images/bk6.jpg')">
+      <table border = 1>
+         <thead>
+            <td><font color="white">Text</font></td>
+            <td><font color="white">IS_FITARA</font></td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td><font color="white">{{row.input_data}}</font></td>
+               <td><font color="white">{{row.result}}</font></td>
+	
+            </tr>
+         {% endfor %}
+      </table>
+      
+      <a href = "/"><font color="white">Return to Home page</font></a>
+   </body>
+</html>
