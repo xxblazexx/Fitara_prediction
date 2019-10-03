@@ -1,5 +1,5 @@
 # Fitara_prediction
-Text classification using RNN(LSTM) and Naive bayes model
+Text classification using RNN(LSTM) and Naive bayes model.
 The output is shown in ss.docx
 
 Steps to run:-
