@@ -1,6 +1,6 @@
 # Fitara_prediction
 Text classification using RNN(LSTM) and Naive bayes model
-
+The output is shown in ss.docx
 
 Steps to run:-
 1) First download the folder called templates into the same directory as your server.py and mydb.db
